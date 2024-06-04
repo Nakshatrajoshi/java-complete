@@ -46,7 +46,7 @@ public class ChatClient {
                         response = "Server: Goodbye, see you later!";
                         break;
                     default:
-                        response = "Server: I didn't understand that.";
+                        response = "Server: I didn't understand that.";// here we can write any response we want from the serever or form any user 
                         break;
                 }
                 System.out.println(response);
